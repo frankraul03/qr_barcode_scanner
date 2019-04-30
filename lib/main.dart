@@ -5,16 +5,16 @@ import 'package:flutter/services.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: HomePage(),
+    home: MyApp(),
   ));
 }
 
-class HomePage extends StatefulWidget {
+class MyApp extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<MyApp> {
   String result = "Hey There";
   Future _scanQR() async {
     try {
